@@ -1,0 +1,399 @@
+1) What is SDLC
+
+	-> Requirements Gathering
+
+	-> Feasibility Study
+
+	-> Analysis
+
+	-> Design
+
+	-> Coding
+
+	-> Testing and Integration
+
+*** In testing, if any mismatch of requirements, then it would be sent back to coding,
+
+this phase is known as feedback ***
+
+	-> Maintenance 
+
+2) What is Water fall model : Ensures that you can implement application phase by phase.
+
+following water fall mode is very easy, as old days people are using waterfall model only.
+
+Drawbacks : 
+____________
+
+	-> You cannot go back to previous phase once one phase is done. 
+
+	-> If a project runs without any timelines, then prefer the waterfall model
+
+	-> We cannot trust the end product. {in between if you want to see the preview,
+		in this model it is not possible} 
+
+
+3) What is V model
+
+Verification and Validation 
+
+Validation is a process in which the product to be validated will be as per my requirements or not. 
+
+Verification is all about the the process you are following. 
+
+*** Validation to be happend on the product, where verification to be done as you are follwing the process 
+	properly or not ***
+
+Waterfall model inadequate to handle in todays worklife environment 
+
+	-> No timely completion
+
+	-> No Previews avaiable
+
+	-> Requirements to defined at first, 
+
+	-> Till last we dont have the guarantee that the end product becomes attractive. 
+
+
+4) Why Agile
+
+Who plays keyrole in agile is 
+
+	-> Scrum Master 
+
+--> Daily Standup Meeting : 
+
+Assume, karthik has assigned task as insurance management, then karthik morning 9 am he specifies in daily standup meeting that by evening i will finish module, as is it finished or not need to check at evening 6 PM 
+
+Hari, assigned as task as trello documentation, to be done by evening 4 PM , as per timelines its happend or not you need to track by evening that time. 
+
+Each requirements to be documented properly.  We have various tools as jira, trello etc... some tools where we can document the requirements. 
+
+The advange is we can track the performance as timelines are met or not.
+
+Prasanna assigned a task to finish agile/sdlc by 23rd april, then evening needs to cross check as its completed or any deviations. 
+
+Product Owner
+A Product Owner is the one who drives the product from business perspective. The responsibilities or a Product Owner are as follows −
+•	To define the requirements and prioritize their values.
+•	To determine the release date and contents.
+•	To take an active role in iteration planning and release planning meetings.
+•	To ensure that team is working on the most valued requirement.
+•	To represent the voice of the customer.
+•	To accept the user stories that meet the definition of done and defined acceptance criteria.
+
+
+Agile Strictly follows one basic rule known as
+
+MOSCOW  -> Must Have
+
+	-> Should Have
+
+	-> Could Have
+
+	-> Wont Have 
+
+A user story is a requirement which defines  what is  required  by the  user  as   functionality.
+
+ A user story can be in two forms −
+•	As a <User Role> I want <Functionality> so that <Business Value>
+•	In order to <Business value> as a <User Role> I want <Functionality>
+During release planning, a rough estimate is given to a user story using relative scale as points. During iteration planning, the story is broken down into tasks.
+
+Assume, we are doing zomoto project 
+
+	-> Restaurant Show
+	-> Menu Show by restaraunt
+	-> Customer Selection of Multiple Menu Items
+	-> Customer Billing
+	-> Customer Food Delivery 
+
+User Story : 
+_____________
+
+Hari as a User Role Developer I want Business Functionality of Restaurant Show so that All available resturants visible to customers 
+
+In order to show all avaialble resuaurants to the customers as a developer i want this buiness functionality. 
+
+Likhit as a User Role Database Team Member i Want business functionality of Menu Show as i can make database into that developers will use and implement coding. 
+
+Mayuri and Meghana as User Role Testing member i want business functionality of Restraunt Show and menu Show tesing as we can identify the bugs in the given code and database and report in tool. 
+
+
+When a Story is Done
+The team decides what done means. The criteria may be −
+
+•	All tasks (development, testing) are completed.
+•	All acceptance tests are running and are passed.
+•	No defect is open.
+•	Product owner has accepted the story.
+•	Deliverable to the end-user.
+
+
+What is Acceptance Criteria?
+Criteria defines the functionality, behavior, and performance required by a feature so that it can be accepted by the product owner. It defines what is to be done so that the developer knows when a user story is complete.
+
+
+1) When the review of the product to be happen
+
+2) What is Sprint
+
+3) When we can see the partially working product (changes happend in code from last review to now) 
+
+4) Is there any changes in existing requirements, when to escalate
+
+Iteration
+
+An iteration is a time boxed collection of user stories / defects to be worked upon and accepted within the release of a product. Iterations are defined during iteration planning meeting and completed with an iteration demo and review meeting. An iteration is also termed as a sprint. An iteration is done when
+
+Sprint is an iteration in which we implement time based user stories w.r.t. accept criteria and release 
+
+each sprint continues for 1 week, as sprint closure will happen on demo, review meeting. 
+
+This we call as sprint demo, sprint review meeting which is followed by sprint retrospective meeting. 
+
+after that only the sprint clousre will happen. 
+
+How to the sprint will be created : 
+_____________________________________
+
+Assume, you are working on insurance project module. 
+
+This module contains 
+
+Product Backlog always implemented by scrum master : 
+
+Product Backlog says : 
+
+Insurance compnay details
+Policy Details
+Customer Policy Information
+Policy Expiry Details
+Renew Policy Option
+Payment Gateway Information
+Alerts for Payment 
+
+Assume, one team selected module called Policy Details 
+
+Then, the product owner will create sprint backlog document, which contains 
+
+--> Tasks to be identified and estimated in hours
+
+--> Please do it as team not as an individual. 
+
+Policy Details contains
+
+	-> Existing Policies    => Please assign to mayuri and time for this is 12 hrs means (1 and 1/4 Day)
+	-> Policies Registered By Customer individual => (please assign this to karthik/satish time is 12 hrs) 
+	-> Policies about to lapse by Customer => (meghana/akanksha) for this 18 hrs (1 and 3/4 day) 
+	-> Policies pending payment by Customers => Pramoditha/Ramana for this 8 hrs (day)
+	-> Expiring Policies  -> Prasanna (for this 4 hrs ) 
+
+What is Product Backlog : It is responsible for definiting end to end requirements of the given product, product backlog can be created by scrum master. 
+
+What is Spring Backlog : One of the requirements of the product backlog can be taken by team and we need to allocate tasks to individual with timelines and we need to document it. 
+
+then we need to close the sprint, when all the userstories are completed, no open bug. 
+
+Sprint close happens only after 
+
+demo, sprint meeting followed by sprint retrospective meeting. after that only product owner will close the sprint. 
+
+*** Basic principle in sprint is, no new requirements will be added in the middle *** 
+
+*** new requirements to be added in the new sprint always, as team is currently working on existing requiremens ***
+
+What is advantage of sprint meeting :
+
+	-> Weekly we can see the working product
+
+	-> We can trust the work progress as demos are going on
+
+What is the difference between
+
+	-> Sprint Review meeting (vs) Sprint Retrospective Meeting 
+
+	In Sprint Review team is going to present new requirements what they did in the current iteration (sprint) 
+
+	  	-> In sprint review meeting, there is no scope for discussions, as first you need to see the 
+			working flow of the given product
+
+		-> Changes happend from old iteration to new iteraion (old/new) sprint.
+
+
+Sprint Meeting immediately follwed by sprint-retrospective meeting 
+
+Here, we have the scope to discuss about the implementations of the current cycle, 
+and any deviations or if everthing is fine then we can close the sprint.
+
+Based on that this meeting, the sprint will proceed further or terminated. 
+
+______________________________________________________________________________________________________________________
+
+Agile strictly follows 
+
+	-> Design
+
+	-> Code
+
+	-> Integrate
+
+	-> Test
+
+
+Scrum Master
+Product Owner
+Team
+
+Documents in this Agile Process
+
+Product Backlog
+Sprint Backlog
+Burn Down Charts 
+
+What operations to be hapen in agile : 
+
+1) Daily Standup
+
+2) Making User-Stories 
+
+3) User-stories to be divided into tasks
+
+4) After implemetations stories are accepted based on acceptance criteria
+
+Sprint
+
+Each iteration in agile will be known as sprint. 
+
+Sprint will continue for 1 week first, max for 2 to 4 weeks
+
+means atleast in 4 weeks once you need to conduct the sprint meeting. 
+
+if you don't conduct any sprint meeting in 4 weeks, that is proof that you are not following the agile methodology. 
+
+Product Backlog : Can be implemeted by Product Owner. 
+
+Sprint Backlog : Scrum team takes one module from the product backlog, and defines all in that and documented known as 
+			sprint backlog with all timelines.
+
+duration to be specified in hours max 1 to 16 hrs. 
+
+Sprint iteration time, whatever new implemetations are there these are to be discussed in 
+
+Sprint Review Meeting followed by 
+
+Sprint Retrospective Meeting 
+
+Sprint Review Meeting only to see the new updates from old sprint to current sprint and see the working of application (product), and all requirements of srs document are met or not. 
+
+Sprint RetroSpective Meeting is about discussions, as what went well, what are to be improved, what are action plans. 
+
+Based on the meetings, the sprint closure will happen. 
+
+Sprint Closure happens only, all requiremens are finished without any open bug 
+
+Always new requirements will be specified in new sprint, as in current sprint no new requiements are specified. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5) What is Agile Process
+
+6) Implemeting Agile Process
+
