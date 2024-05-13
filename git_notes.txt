@@ -70,4 +70,13 @@ git status : THis commands displays the difference between old commit vs new cha
 
 git diff : Used to find the difference between committed content vs new content. 
 
+git log : Used to display all the periodic commits happend in the git
+
+If you want to print all the commits in line by line we need to use
+
+git log --oneline
+
+git pull : Used to retrieve changes in the git repo
+
+git stash  : Used to stash the changes
 
