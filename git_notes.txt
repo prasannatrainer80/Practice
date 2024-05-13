@@ -1,0 +1,73 @@
+Git contains 4 different areas as
+
+1) Working Directory : Whatever the current directory you are working known as working directory. 
+
+2) Staging Area : This is a small file area which contains which data to be committed. 
+
+3) Local Repo : It is small area in your system where the data to be commited for your system level.
+
+4) Remote Repo : It is an area where you can distribute data and avaialble to authorized users. 
+
+
+1) How to dowload repository first time in git
+
+git clone 
+
+git clone https://github.com/prasannatrainer80/Practice
+
+2) Please move to the directory in git command prompt, then 
+
+store some files into the directory
+
+To add the files finalized 
+
+How to add the files to the staging area 
+
+git add : This command used to add the files to the staging area
+
+staging area is an area, where we can place all the files to be ready to upload 
+
+git add . : Adds all the files to the staging area 
+
+To add the files to the local repository 
+
+git commit : This command allows you to add the files to the local repo
+
+git commit -m "crime script"
+
+Here the message is mandetory, if you don't give the message, then it opens in vi editor and there we need to give message. 
+
+To add the files to the remote repository 
+
+git push : This command allows you to add the files to the remote repository 
+
+git push origin main
+
+_________________________________________________________________________________________
+
+
+How to download files from git at first time repository 
+
+git clone 
+
+How to add the files to staging area 
+
+git add .
+
+How to add files to local repo
+
+git commit -m "message"
+
+How to Add files to the remote repo
+
+git push origin branch_name
+
+here the branch_name is main so we are giving 
+
+git push origin main
+
+git status : THis commands displays the difference between old commit vs new changes 
+
+git diff : Used to find the difference between committed content vs new content. 
+
+
